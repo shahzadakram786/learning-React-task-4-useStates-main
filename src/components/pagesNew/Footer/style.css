@@ -1,0 +1,19 @@
+.parent_att>div a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9vmax;
+    /* background: #171717; */
+}
+
+.child_one,
+.child_two {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* background: #171717; */
+}
+
+.child_one a:hover,
+.child_two a:hover {
+    text-decoration: underline;
+}

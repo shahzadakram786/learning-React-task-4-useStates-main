@@ -1,0 +1,49 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #878b967d;
+}
+
+.container {
+    color: rgb(209, 199, 199);
+}
+
+.main_div {
+
+    display: flex;
+    justify-content: end;
+    float: right;
+    gap: 2rem;
+    padding: 1.3rem;
+    align-items: center;
+    width: 100%;
+}
+
+.main_div a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.main_div a:hover {
+    text-decoration: underline;
+}
+
+.circle_img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: orange;
+    overflow: hidden;
+}
+
+.circle_img img {
+    object-fit: contain;
+}
+
+.icons_dots {
+    color: white;
+    font-size: 1.5vmax;
+} */
