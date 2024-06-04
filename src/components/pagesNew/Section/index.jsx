@@ -7,7 +7,6 @@ import { Box, Divider, Flex, Heading, Spinner, Grid } from "@chakra-ui/react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { setArts } from "../../../redux/arts/artsSlicer";
-import {} from "../../baseUrl/baseURL";
 
 let buyCard = [];
 

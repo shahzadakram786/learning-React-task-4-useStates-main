@@ -16,7 +16,7 @@ function Home({ handleCancel }) {
   const [saveThree, setSaveThree] = useState([]);
   const [saveFour, setSaveFour] = useState([]);
   const [Loading1, setIsloading1] = useState(true);
-  const [islargerthan800] = useMediaQuery("(min-width : 800px)");
+  // const [islargerthan800] = useMediaQuery("(min-width : 800px)");
 
   useEffect(() => {
     const timer2 = setTimeout(() => {

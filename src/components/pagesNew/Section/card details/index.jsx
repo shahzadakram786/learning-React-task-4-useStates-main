@@ -1,4 +1,5 @@
 //This file is for the First  cards of tab ABout only Cards
+import { ImageURL } from "../../../../baseUrl/baseURL";
 
 import {
   Box,
@@ -16,7 +17,7 @@ import React, { useState } from "react";
 
 // import { VscVerifiedFilled } from "react-icons/vsc";
 
-function CardCom({ cardData, addCardToBuyList }) {
+function CardCom({ cardData, addCardToBuyList, image }) {
   const BuyCards = (cardData) => {
     addCardToBuyList(cardData);
   };
@@ -39,7 +40,7 @@ function CardCom({ cardData, addCardToBuyList }) {
       >
         <CardBody>
           <Image
-            src={cardData.image}
+            src={ImageURL + image}
             alt="shoes"
             width="100%"
             h="200px"
@@ -47,6 +48,10 @@ function CardCom({ cardData, addCardToBuyList }) {
             borderRadius="5px"
             _hover={{
               cursor: "pointer",
+            }}
+            onError={(e) => {
+              e.target.src =
+                "https://via.placeholder.com/270x200?text=Image+Not+Found"; // Fallback image
             }}
           />
           <Box className="text_parent">
